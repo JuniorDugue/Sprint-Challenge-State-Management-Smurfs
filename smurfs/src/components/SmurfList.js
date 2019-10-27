@@ -7,7 +7,7 @@ const SmurfList = props => {
   useEffect(() => {
     props.fetchSmurfs();
     console.log(props.smurfs);
-  }, []);
+  },);
 
   return (
     <div className="smurfList">
