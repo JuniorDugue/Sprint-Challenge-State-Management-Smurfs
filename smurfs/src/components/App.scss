@@ -1,0 +1,56 @@
+// App.js Component
+.App {
+  text-align: center;
+
+  .title {
+    margin: 5% 0 0 0;
+    color: #6299CB;
+  }  
+}
+
+
+// SmurfForm Component
+.smurfForm {
+  // border: 1px solid red;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    // border: 1px solid red;
+    width: 444px;
+    height: 25px;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 10%;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 265px;
+    height: 40px;
+    background: #6299CB;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+  }
+}
+
+
+// SmurfList Component
+.smurfList {
+  // border: 1px solid red;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+
+// Smurf Component
+.smurf {
+  // border: 1px solid red;
+  margin: 3%;
+  padding: 2% 5%;
+  background: white;
+}

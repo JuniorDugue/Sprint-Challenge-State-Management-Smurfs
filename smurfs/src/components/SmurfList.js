@@ -8,10 +8,10 @@ const SmurfList = props => {
     props.fetchSmurfs();
     console.log(props.smurfs);
   }, []);
-  
+
   return (
-    <div>
-    <h2>Smurf List Component</h2>
+    <div className="smurfList">
+    {/* <h2>Smurf List Component</h2> */}
       {props.smurfs.map(smurf => {
         return <Smurf smurf={smurf} />;
       })}
